@@ -1,0 +1,114 @@
+.kitchen {
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(kk.jpg);
+  height: 110vh;
+  min-width: 100vh;
+  background-size: cover;
+}
+.thakali,
+.item {
+  background: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__480.jpg);
+  border: 5px solid;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  float: left;
+  width: calc(50% - 40px);
+  margin: 25px 20px;
+  padding: 1px;
+  position: relative;
+  color: #1c3879;
+}
+.item h1 {
+  padding: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: orange;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btn2 {
+  padding: 10px 10px;
+  background-color: linear-gradient(red, yellow);
+  border: 10;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #1c3879;
+  transition: 0.3s;
+}
+
+.btn2:hover {
+  background: orange;
+  color: black;
+}
+
+.text {
+  text-align: center;
+}
+
+.popup {
+  width: 400px;
+  background: dimgray;
+  border-radius: 6px;
+  top: 0;
+  left: 50%;
+  transform: (-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: wheat;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+  position: absolute;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+.popup button {
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: white;
+  color: #0b0101;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0, 2px 5px rgb(249, 9, 9);
+}
+.popup button:hover {
+  color: white;
+  background: #e89d12;
+}
+
+img {
+  padding-right: 50px;
+}
+
+.wine,
+.soft,
+.hot,
+.fruit,
+.energy {
+  background: url(https://thumbs.dreamstime.com/b/distressed-halftone-grunge-black-white-texture-texture-concrete-floor-background-creation-abstract-vintage-effect-180517429.jpg);
+}

@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Book Now</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="booknow">
+      <div id="toppart"></div>
+      <div class="time-form">
+        <div class="time">
+          <h1>Opening Time</h1>
+          <br />
+          <h2>Monday-Friday</h2>
+          <h3>7am-11am(Breakfast)</h3>
+          <h3>11am-10pm (Lunch/Dinner)</h3>
+          <h2>Saturday and Sunday <br /></h2>
+          <h3>9am-1am(Breakfast)</h3>
+          <h3>1am-10pm(Lunch/Dinner)</h3>
+        </div>
+        <div class="booknow12">
+          <form class="book-form12">
+            <div class="form-item12">
+              <label for="checkin-date">Check In Date:</label>
+              <input type="date" id="checkin-date" />
+            </div>
+            <div class="form-item12">
+              <label for="checkout-date">Check Out Date:</label>
+              <input type="date" id="checkout-date" />
+            </div>
+            <div class="form-item12">
+              <label for="adult">Adults:</label>
+              <input type="number" min="1" value="1" id="adult" />
+            </div>
+            <div class="form-item12">
+              <label for="children">Children:</label>
+              <input type="number" min="1" value="1" id="children" />
+            </div>
+            <div class="form-item12">
+              <label for="rooms">Rooms:</label>
+              <input type="number" min="1" value="1" id="rooms" />
+            </div>
+            <div class="form-item12">
+              <input type="submit" class="btnforbook" value="Book now" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
